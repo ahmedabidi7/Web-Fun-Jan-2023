@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#navbar {
+    width: 800px;
+    height: auto;
+    background-color: silver;
+    display: flex;
+    padding: 0px 20px;
+    margin: 10px auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#cont {
+    width: 840px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    
+    margin: 0px auto;
+    
+    justify-content: space-between;
+}
+
+#leftcont {
+    flex: 2;
+    background-color: rgb(255, 255, 255);
+    
+    margin: 10px;
+}
+#rightcont {
+    flex: 1;
+    background-color: white;
+    
+    margin: 10px;
+    
+}
+
+
+.box1 {
+    background-color: rgb(255, 255, 255);
+    border: solid 2px;
+    border-color: black;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bl {
+flex: 1;
+}
+.br {
+flex: 2;
+}
+
+
+.box3 {
+    border: solid 2px;
+    border-color: black;
+    padding: 10px;
+    
+
+}
+
+button {
+    border: solid 2px;
+    padding: 5px;
+}
+input {
+    border: solid 2px;
+    padding: 5px;
+}
+#log {
+    background-color: rgb(102, 102, 255);
+    
+}
+.lik {
+    background-color: rgb(255, 245, 102);
+}
+.def {
+    background-color: rgb(102, 255, 102);
+}

@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card {
+    width: 600px;
+    height: 300px;
+    background-color: grey;
+    padding: 2px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+}
+.top {
+    height: 80px;
+    background-color: aquamarine;
+}
+.main {
+    height: 200px;
+    background-color: white;
+    padding: 40px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+}
+#i1 {
+    height: 20px;
+
+}
+.loca {
+    display: flex;
+
+}
+img {
+    margin-right: 10px;
+}
+.p9 {
+    height: 90px;
+    width: 90px;
+    position: relative;
+    left: 30px;
+    top: 30px;
+}

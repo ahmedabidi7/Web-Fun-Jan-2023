@@ -1,0 +1,30 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(63, 63, 63);
+    padding: 0px 20px;
+}
+.nav-title{
+    align-self: flex-start;
+    color: white;
+}
+.nav-links{
+    align-self: flex-end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    padding: 10px;
+    color: rgb(63, 63, 63);
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-size-adjust: large;
+}
+.btn{
+    color: white;
+    background-color: darkcyan;
+}

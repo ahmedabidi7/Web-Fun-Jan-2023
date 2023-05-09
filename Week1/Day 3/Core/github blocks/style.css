@@ -1,0 +1,53 @@
+img {
+    height: 200px;
+}
+#cont {
+    width: 760px;
+    height: auto;
+    background-color: grey;
+    padding: 20px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+}
+#gittext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 95%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkblue;
+    font-size: x-large;
+}
+#b1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: aquamarine;
+    width: 95%;
+    padding: 20px;
+}
+#b2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    background-color: rosybrown;
+    width: 95%;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+#b3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: bisque;
+    width: 95%;
+    padding: 20px;
+    margin-top: 20px;
+
+}

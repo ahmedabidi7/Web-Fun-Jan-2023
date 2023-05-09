@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*navigation bar*/
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(63, 63, 63);
+    padding: 0px 20px;
+}
+.nav-title{
+    align-self: flex-start;
+    color: white;
+}
+.nav-links{
+    align-self: flex-end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    padding: 10px;
+    color: rgb(63, 63, 63);
+}
+.toplinks{
+    color: white;
+    text-decoration: none;
+    text-size-adjust: large;
+}
+ul {
+    list-style-type: none;
+  }
+.btn{
+    color: white;
+    background-color: darkcyan;
+}
+/*card*/
+.card {
+    width: 500px;
+    height: 320px;
+    background-color: grey;
+    padding: 2px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+}
+.top {
+    height: 80px;
+    background-color: rgb(26, 140, 206);
+}
+.main {
+    height: 200px;
+    background-color: white;
+    padding: 40px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+}
+#i1 {
+    height: 20px;
+
+}
+.loca {
+    display: flex;
+
+}
+img {
+    margin-right: 10px;
+}
+.p9 {
+    height: 90px;
+    width: 90px;
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+/*mainpage*/
+.mainpage {
+    display: flex;
+    justify-content: center;
+}
+/*normal card*/
+.normalcard {
+    width: 350px;
+    height: auto;
+    background-color: grey;
+    padding: 2px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+}
+.topnormal {
+    height: 40px;
+    background-color: rgb(53, 53, 53);
+}
+.mainnormal {
+    height: 200px;
+    background-color: white;
+    padding: 40px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.normaltitle {
+    text-align: center;
+    color: white;
+}
+#lttp {
+    height: 35px;
+
+}
+#lttp2 {
+    height: 30px;
+    
+}
+.loca2 {
+    display: flex;
+    justify-content: space-between;
+}
+.xx {
+    display: flex;
+}
+img {
+    margin-right: 10px;
+}
+.p9 {
+    height: 90px;
+    width: 90px;
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+/*edu card*/
+.educard {
+    width: 500px;
+    height: auto;
+    background-color: grey;
+    padding: 2px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+}
+.topnormal {
+    height: 40px;
+    background-color: rgb(53, 53, 53);
+}
+.mainnormal {
+    height: 200px;
+    background-color: white;
+    padding: 40px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.normaltitle {
+    text-align: center;
+    color: white;
+}
+#lttp {
+    height: 35px;
+
+}
+#lttp2 {
+    height: 30px;
+    
+}
+.loca2 {
+    display: flex;
+    justify-content: space-between;
+}
+.xx {
+    display: flex;
+}
+img {
+    margin-right: 10px;
+}
+.p9 {
+    height: 90px;
+    width: 90px;
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+h3 {
+    color: gray;
+}
+/* left right page*/
+
+.leftpage , .rightpage {
+    margin: 20px;
+}
