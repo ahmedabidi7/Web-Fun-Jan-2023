@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.navbar {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #a0c6f8;
+    margin-bottom: 15px;
+}
+
+.title-class{
+    margin-bottom: 15px;
+}
+
+.dojoweather{
+    color: white;
+}
+
+.top-link{
+    margin: auto 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.container-title{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.temperature{
+    display: flex;
+}
+
+.accept-button{
+    margin: 10px;
+    border: solid 2px;
+    background-color: #a0c6f8;
+    width: 100px;
+}
+
+.container-content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box {
+    width: 20%;
+    height: 300px;
+    background-color: #eeefef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.weather-img{
+    width: 60%;
+    border-radius: 50%;
+}
+
+.temp-value{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.high-temp{
+    color: #d02522;
+}
+
+.low-temp{
+    color: #2779e5;
+}
+
+.cookie-box{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: solid 2px;
+    background-color: #eeefef;
+}
+
